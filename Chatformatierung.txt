@@ -1,0 +1,48 @@
+28089l2020
+
+Farben:
+    0 = Schwarz         8 = Grau
+    1 = Blau            9 = Hellblau
+    2 = Grün            A = Hellgrün
+    3 = Türkis          B = Helltürkis
+    4 = Rot             C = Hellrot
+    5 = Lila            D = Helllila
+    6 = Gelb            E = Hellgelb
+    7 = Hellgrau        F = Weiß
+    K = Krussel         L = Fett
+    O = Krusiv          N = Unterstrichen
+    M = Durchgestrichen R = Reset
+
+Legende:
+    "" -> Bestimmt die schreibweise der Texte.
+    {} -> Ist ein Codebaustein zum einfügen.
+
+Bausteine:
+    Geld: §e§l1.000 §6l{Coins}
+    Rang:
+
+
+Nachrichten
+    MSG-Nachricht [MSG]:
+        {Absender:"R┃Spieler"} &8➡ &rDir &8➧ &r{Privatnachricht}
+        &rDu &8➡ {Empfänger:"R┃Spieler"} &8➧ &r{Privatnachricht}
+
+    Servernachrichten[MySkyLABS]:
+        &e{Servernachrichten}
+
+    Clearnachricht:
+        &eAlle Items werden in &ceiner Minute &eentfernt!
+        &eAlle Items werden in &c30 Sekunden &e&lentfernt!
+        &eAlle Items werden in &c10 Sekunden &e&lentfernt!
+        {Itemanzahl:"&c10 Items"/"&c1 Item"} &ewurde entfernt!
+
+    Bonusnachricht:
+        &eDu hast einen Bonus von {Coinanzahl: "&a3.200 Coins"/"&a1 Coin"} &eerhalten.
+
+    Commandnachricht:
+        &eDer Command {Command: "&c/help"} &ewurde nicht gefunden.
+
+    On-/Offline [-]:
+        {"Rang┃Spieler"} &eist jetzt &aonline&e.
+        {"Rang┃Spieler"} &eist jetzt &coffline&e.
+

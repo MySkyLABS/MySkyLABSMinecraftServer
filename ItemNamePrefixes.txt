@@ -1,0 +1,24 @@
+Schattendolch: §r§0§r
+Fox's Todessense: §r§1§r
+Hasenfüße: §r§2§r
+Ragnaron_'s Kummer (Hose): §r§3§r
+Smogmaa's Arbeiterpicke: §r§4§r
+Crepper710's Item:§r§5§r
+Backpack klein:§r§6§r
+Backpack groß:§r§7§r
+Treibstoff: §r§8§r
+Vaape's Giftklinge: §r§9§r
+Magische-Iron-Axt: §r§a§r
+Stinkekäse: §r§b§r
+Smogmaa's ArbeiterJacke: §r§c§r
+Ragnaron_'s Kummer (Helm): §r§d§r
+Ragnaron_'s Kummer (Brustplatte): §r§e§r
+Kitty's Glücksangel: §r§f§r
+Basic's Schutzschwert: §0§0§r
+Magische-Iron-Spitzhacke: §r§g§r
+Magische-Iron-Schaufel: §r§h§r
+Foxi's Feuerschweif: §r§i§r
+Cobalt's Farmersense: §r§j§r
+Ragnaron_'s Selbstlosigkeit: §r§k§r
+Color Shoes: §r§l§r
+Einhornschuhe: §r§m§r
