@@ -40,7 +40,7 @@ public class GlobalValues {
 	public static ArrayList<UUID> muted = new ArrayList<UUID>();
 	public static ArrayList<UUID> reportBlocked = new ArrayList<UUID>();
 
-    public static String discordToken = "NzQxMzg4MTM5MTQ2NTEwMzk4.Xy21gg.Tq6eaR_IvX97ygUkwFftj8ddSm0";
+    public static String discordToken = "";
 	public static HashMap<Integer, PlayerReport> playerReports = new HashMap<Integer, PlayerReport>();
 	public static int playerReportCounter = 0;
 	public static int magicValue = 0x43173AE0;

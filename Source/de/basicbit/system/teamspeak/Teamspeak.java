@@ -33,13 +33,13 @@ public class Teamspeak implements TS3Listener {
 	public static void onStart() {
 		try {
 			config.setFloodRate(FloodRate.DEFAULT);
-			config.setQueryPort(10011);
-			config.setHost("134.255.232.43");
+			config.setQueryPort();
+			config.setHost("");
 			query = new TS3Query(config);
 			query.connect();
 			ts = query.getApi();
 			ts.selectVirtualServerById(1);
-			ts.login("serveradmin", "'!as?d6/5fG_G4gD6'");
+			ts.login("serveradmin", "");
 			ts.setNickname("MySkyLABS.de");
 			ts.addTS3Listeners(new Teamspeak());
 			ts.registerAllEvents();
