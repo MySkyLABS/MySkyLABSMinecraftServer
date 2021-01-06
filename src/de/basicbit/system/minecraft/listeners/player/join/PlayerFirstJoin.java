@@ -14,7 +14,7 @@ public class PlayerFirstJoin extends Listener {
     public static void FirstJoin(PlayerJoinEvent e) {
         Player p = e.getPlayer();
 
-        if (p.getStatistic(Statistic.LEAVE_GAME) == 0) { // 10 Sekunden
+        if (p.getStatistic(Statistic.LEAVE_GAME) == 0) {
             sendMessage(p, "§aHerzlich  willkommen auf §e§nMySkyLABS.de§a!");
 
             TaskManager.runAsyncTaskLater(new Runnable() {
