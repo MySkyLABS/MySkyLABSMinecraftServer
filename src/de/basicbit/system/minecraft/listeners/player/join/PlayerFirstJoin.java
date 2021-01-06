@@ -13,9 +13,8 @@ public class PlayerFirstJoin extends Listener {
     @EventHandler
     public static void FirstJoin(PlayerJoinEvent e) {
         Player p = e.getPlayer();
-        int playTime = p.getStatistic(Statistic.PLAY_ONE_TICK);
 
-        if (playTime < 200) { // 10 Sekunden
+        if (p.getStatistic(Statistic.LEAVE_GAME) == 0) { // 10 Sekunden
             sendMessage(p, "§aHerzlich  willkommen auf §e§nMySkyLABS.de§a!");
 
             TaskManager.runAsyncTaskLater(new Runnable() {
